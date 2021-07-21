@@ -1,0 +1,52 @@
+*{
+  margin: 0;
+}
+
+nav{
+  background-color: #041528;
+}
+
+nav h2{
+  color: white;
+  padding: 5px;
+
+}
+
+.bg-img{
+  background-image: url(back-g/2.jpg);
+  background-size: 300px;
+  
+  text-align: center;
+}
+
+.upload{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+
+  background-color:#041528;
+
+  margin-top: 10px;
+  
+  margin-right: 250px;
+  margin-left: 250px;
+  padding: 10px;
+}
+
+.upload img{
+  width: 250px;
+}
+
+.collage{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+
+  margin: 20px;
+}
+
+.collage img{
+  width: 300px;
+}
